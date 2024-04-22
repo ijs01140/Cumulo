@@ -300,7 +300,7 @@ public class Program
                 yield return processor.Create
                 (
                     OpCodes.Ldc_I4,
-                    (int)(SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12)
+                    (int)(SecurityProtocolType.Tls12)
                 );
             }
             // Otherwise return the instructions as normal
